@@ -22,9 +22,26 @@
         <label for="apellidos">Apellidos:</label>
         <input type="text" name="apellidos" id="apellidos" autofocus>
     </div>
-    <p>Sexo:</p> <input type="sexo" name="sexo" id="hombrE" value="">
-    <label for="sexo">hombre</label>
+    <p>Sexo:</p><input type="radio" name="sexo" id="hombrE" value="hombre">
+    <label for="hombre">hombre</label><input type="radio" name="sexo" id="mujer" value="mujer">
+    <label for="mujer">mujer</label>
     <br>
+    <br>
+        <label for="email">Correo:</label>
+        <input type="email" name="email" id="email">
+    <br>
+    <br>
+    <input type="checkbox" name="publicidad" id="publicidad" value="aceptacion" checked>
+        <label for="publicidad">Deseo recibir información sobre novedades y ofertas</label>
+        <br>
+        <br>
+        <input type="checkbox" name="privacidad" id="privacidad" value="negacion">
+        <label for="publicidad">Declaro haber leido y aceptar las condiciones generales del programa y la normativa sobre protección de datos</label>
+        <br>
+        <br>
+        <div class="my-input">
+            <input type="submit">
+        </div>
 
 </body>
 </html>
